@@ -30,7 +30,6 @@ body {
 
 .topbar {
   display: flex;
-  height: 20px;
 }
 
 .menu1 {
@@ -47,92 +46,12 @@ body {
   font-size: 25px;
 }
 
-.home {
+.item {
   display: flex;
   align-items: center;
 }
 
-.home img {
-  height: 24px;
-  padding: 12px;
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-}
-
-.profile img {
-  height: 24px;
-  padding: 12px;
-}
-
-.messages {
-  display: flex;
-  align-items: center;
-}
-
-.messages img {
-  height: 24px;
-  padding: 12px;
-}
-
-.history {
-  display: flex;
-  align-items: center;
-}
-
-.history img {
-  height: 24px;
-  padding: 12px;
-}
-
-.tasks {
-  display: flex;
-  align-items: center;
-}
-
-.tasks img {
-  height: 24px;
-  padding: 12px;
-}
-
-.communities {
-  display: flex;
-  align-items: center;
-}
-
-.communities img {
-  height: 24px;
-  padding: 12px;
-}
-
-.settings {
-  display: flex;
-  align-items: center;
-}
-
-.settings img {
-  height: 24px;
-  padding: 12px;
-}
-
-.support {
-  display: flex;
-  align-items: center;
-}
-
-.support img {
-  height: 24px;
-  padding: 12px;
-}
-
-.privacy {
-  display: flex;
-  align-items: center;
-}
-
-.privacy img {
+.item img {
   height: 24px;
   padding: 12px;
 }
