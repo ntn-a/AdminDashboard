@@ -1,8 +1,30 @@
 body {
   margin: 0;
+  height: 100%
 }
 
 .container {
   display: grid;
   grid-template-columns: 30fr 200fr;
+  grid-template-rows: 50fr;
+}
+
+.main {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.sidebar {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  background-color: #0ea5e9;
+  color: white;
+  height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  height: 20px;
 }
