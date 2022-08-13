@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
 body {
   margin: 0;
-  height: 100%
+  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
@@ -15,6 +18,7 @@ body {
 }
 
 .sidebar {
+  padding: 15px;
   grid-row-start: 1;
   grid-row-end: 3;
   display: flex;
@@ -27,4 +31,108 @@ body {
 .topbar {
   display: flex;
   height: 20px;
+}
+
+.menu1 {
+  padding-top: 40px;
+}
+
+.menu2 {
+  padding-top: 40px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.home img {
+  height: 24px;
+  padding: 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  height: 24px;
+  padding: 12px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+}
+
+.messages img {
+  height: 24px;
+  padding: 12px;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+}
+
+.history img {
+  height: 24px;
+  padding: 12px;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+}
+
+.tasks img {
+  height: 24px;
+  padding: 12px;
+}
+
+.communities {
+  display: flex;
+  align-items: center;
+}
+
+.communities img {
+  height: 24px;
+  padding: 12px;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+}
+
+.settings img {
+  height: 24px;
+  padding: 12px;
+}
+
+.support {
+  display: flex;
+  align-items: center;
+}
+
+.support img {
+  height: 24px;
+  padding: 12px;
+}
+
+.privacy {
+  display: flex;
+  align-items: center;
+}
+
+.privacy img {
+  height: 24px;
+  padding: 12px;
 }
