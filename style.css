@@ -9,12 +9,13 @@ body {
 .container {
   display: grid;
   grid-template-columns: 30fr 200fr;
-  grid-template-rows: 50fr;
 }
 
 .main {
   grid-row-start: 2;
   grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 50fr 50fr 50fr;
 }
 
 .sidebar {
@@ -54,4 +55,13 @@ body {
 .item img {
   height: 24px;
   padding: 12px;
+}
+
+.projects {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-template-columns: 1fr 1fr;
 }
