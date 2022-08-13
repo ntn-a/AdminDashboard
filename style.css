@@ -13,6 +13,7 @@ body {
 }
 
 .main {
+  background-color: rgb(228, 228, 228);
   grid-row-start: 2;
   grid-column-start: 2;
   display: grid;
@@ -32,6 +33,17 @@ body {
 }
 
 .topbar {
+  display: grid;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+}
+
+.bottom {
   display: flex;
 }
 
@@ -70,4 +82,33 @@ body {
 
 .spacer {
   padding-top: 2vh;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.announcements {
+  padding: 10px;
+}
+
+.notice {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.trending {
+  padding: 10px;
+}
+
+.user {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
 }
