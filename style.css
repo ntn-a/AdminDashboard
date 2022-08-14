@@ -112,3 +112,25 @@ body {
   background-color: white;
   border-radius: 20px;
 }
+
+.titleA {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons img {
+  height: 24px;
+  padding-left: 24px;
+}
