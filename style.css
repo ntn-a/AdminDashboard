@@ -134,3 +134,12 @@ body {
   height: 24px;
   padding-left: 24px;
 }
+
+.user {
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
